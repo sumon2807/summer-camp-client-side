@@ -17,6 +17,7 @@ import MyBookings from "../Pages/DashBoard/MyBookings/MyBookings";
 import AddClasses from "../Pages/AddClasses/AddClasses";
 import Payment from "../Pages/DashBoard/Payment/Payment";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
+import AdminRoutes from "./AdminRoutes";
 
 
   export const router = createBrowserRouter([
@@ -64,7 +65,7 @@ import ErrorPage from "../Pages/ErrorPage/ErrorPage";
     },
     {
       path: 'dashboard',
-      element: <DashBoard></DashBoard>,
+      element: <PrivateRoute><DashBoard></DashBoard></PrivateRoute>,
       children: [
         {
           path: 'myBookings',
@@ -76,7 +77,7 @@ import ErrorPage from "../Pages/ErrorPage/ErrorPage";
         },
         {
           path: 'manageUser',
-          element: <ManageUser></ManageUser>
+          element: <AdminRoutes><ManageUser></ManageUser></AdminRoutes>
         },
         {
           path: 'addClasses',
