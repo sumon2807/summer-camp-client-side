@@ -44,17 +44,17 @@ import ErrorPage from "../Pages/ErrorPage/ErrorPage";
         {
           path: 'allInstructor',
           element: <AllInstructor></AllInstructor>,
-          loader: ()=>fetch('http://localhost:5000/instructors')
+          loader: ()=>fetch('https://b7a12-summer-camp-server-side-woad.vercel.app/instructors')
         },
         {
           path: '/instructorInfo/:id',
           element: <InstructorDetails></InstructorDetails>,
-          loader: ({params})=>fetch(`http://localhost:5000/instructors/${params.id}`)
+          loader: ({params})=>fetch(`https://b7a12-summer-camp-server-side-woad.vercel.app/instructors/${params.id}`)
         },
         {
           path: '/classDetails/:id',
           element: <ClassDetails></ClassDetails>,
-          loader: ({params})=>fetch(`http://localhost:5000/classes/${params.id}`)
+          loader: ({params})=>fetch(`https://b7a12-summer-camp-server-side-woad.vercel.app/classes/${params.id}`)
         },
         {
           path: 'contactus',

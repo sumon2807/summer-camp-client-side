@@ -3,15 +3,17 @@ import React, { useState } from 'react';
 import { Helmet } from 'react-helmet';
 import { FaTrashAlt, FaUsers } from 'react-icons/Fa';
 import Swal from 'sweetalert2';
+import useAxiosSecure from '../../../hooks/useAxiosSecure';
 
 const ManageUser = () => {
+    const [axiosSecure]=useAxiosSecure();
     const { data: users = [], refetch } = useQuery(['users'], async () => {
-        const res = await fetch('http://localhost:5000/users')
-        return res.json();
+        const res = await axiosSecure.get('/users')
+        return res.data;
     })
 
     const handleMakeAdmin = user => {
-        fetch(`http://localhost:5000/users/admin/${user._id}`, {
+        fetch(`https://b7a12-summer-camp-server-side-woad.vercel.app/users/admin/${user._id}`, {
             method: 'PATCH',
         })
             .then(res => res.json())
@@ -29,7 +31,7 @@ const ManageUser = () => {
 
     const handleMakeInstructor=user=>{
         console.log(user);
-        fetch(`http://localhost:5000/users/instructors/${user._id}`, {
+        fetch(`https://b7a12-summer-camp-server-side-woad.vercel.app/users/instructors/${user._id}`, {
             method: 'PATCH',
         })
             .then(res => res.json())
@@ -56,7 +58,7 @@ const ManageUser = () => {
             confirmButtonText: 'Yes, delete it!'
         }).then((result) => {
             if (result.isConfirmed) {
-                fetch(`http://localhost:5000/users/${user._id}`, {
+                fetch(`https://b7a12-summer-camp-server-side-woad.vercel.app/users/${user._id}`, {
                     method: 'DELETE'
                 })
                     .then(res => res.json())

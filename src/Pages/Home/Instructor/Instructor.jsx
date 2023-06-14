@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 const Instructor = () => {
     const [instructors, setInstructros] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/instructors')
+        fetch('https://b7a12-summer-camp-server-side-woad.vercel.app/instructors')
             .then(res => res.json())
             .then(data => setInstructros(data))
     }, [])

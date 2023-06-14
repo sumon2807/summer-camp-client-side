@@ -17,7 +17,7 @@ const ClassDetails = () => {
         console.log(classData);
         if(user && user.email){
             const bookedItem={bookedItemId: _id, image, price, available_seats, class_name, email: user?.email}
-            fetch('http://localhost:5000/bookings', {
+            fetch('https://b7a12-summer-camp-server-side-woad.vercel.app/bookings', {
                 method: 'POST',
                 headers: {
                     'content-type' : 'application/json'

@@ -11,7 +11,7 @@ const useInstructor = () => {
         queryKey: ['isInstructor', user?.email],
         enabled: !loading && !!user?.email && !!localStorage.getItem('access-token'),
         queryFn: async ()=>{
-            const res=await axios.get(`http://localhost:5000/users/instructors/${user?.email}`);
+            const res=await axios.get(`https://b7a12-summer-camp-server-side-woad.vercel.app/users/instructors/${user?.email}`);
             return res.data.instructor;
         }
     })

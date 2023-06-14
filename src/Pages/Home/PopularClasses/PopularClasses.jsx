@@ -5,7 +5,7 @@ import PopularClassItem from '../PopularClassItem/PopularClassItem';
 const PopularClasses = () => {
     const [popular, setPopularClasses] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/classes')
+        fetch('https://b7a12-summer-camp-server-side-woad.vercel.app/classes')
             .then(res => res.json())
             .then(data => setPopularClasses(data))
     }, [])
