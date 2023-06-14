@@ -1,0 +1,82 @@
+[
+    {
+      "class_name": "Hatha Yoga",
+      "image": "https://i.ibb.co/xYwBTd2/popular2.jpg",
+      "instructor_name": "John Smith",
+      "available_seats": 15,
+      "price": 20.99,
+      "class_Details": "Modern postural yoga consists largely but not exclusively of the practice of asanas. There were very few standing asanas before 1900. By 2012, there were at least 19 widespread styles from Ashtanga Yoga to Viniyoga. These emphasise different aspects including aerobic exercise, precision in the asanas, and spirituality in the Haṭha yoga tradition."
+    },
+    {
+      "class_name": "Vinyasa Flow",
+      "image": "https://i.ibb.co/PgvVTWT/popular6.jpg",
+      "instructor_name": "Sarah Johnson",
+      "available_seats": 10,
+      "price": 15.99,
+      "class_Details": "Modern postural yoga consists largely but not exclusively of the practice of asanas. There were very few standing asanas before 1900. By 2012, there were at least 19 widespread styles from Ashtanga Yoga to Viniyoga. These emphasise different aspects including aerobic exercise, precision in the asanas, and spirituality in the Haṭha yoga tradition."
+    },
+    {
+      "class_name": "Bikram Yoga",
+      "image": "https://i.ibb.co/4gyxKZt/popular7.jpg",
+      "instructor_name": "David Anderson",
+      "available_seats": 8,
+      "price": 25.99,
+      "class_Details": "Modern postural yoga consists largely but not exclusively of the practice of asanas. There were very few standing asanas before 1900. By 2012, there were at least 19 widespread styles from Ashtanga Yoga to Viniyoga. These emphasise different aspects including aerobic exercise, precision in the asanas, and spirituality in the Haṭha yoga tradition."
+    },
+    {
+      "class_name": "Ashtanga Yoga",
+      "image": "https://i.ibb.co/qmGyvX1/popular3.jpg",
+      "instructor_name": "Emily Thompson",
+      "available_seats": 12,
+      "price": 18.99,
+      "class_Details": "Modern postural yoga consists largely but not exclusively of the practice of asanas. There were very few standing asanas before 1900. By 2012, there were at least 19 widespread styles from Ashtanga Yoga to Viniyoga. These emphasise different aspects including aerobic exercise, precision in the asanas, and spirituality in the Haṭha yoga tradition."
+    },
+    {
+      "class_name": "Restorative Yoga",
+      "image": "https://i.ibb.co/P6X3PsP/popular4.jpg",
+      "instructor_name": "Michelle Davis",
+      "available_seats": 20,
+      "price": 22.99,
+      "class_Details": "Modern postural yoga consists largely but not exclusively of the practice of asanas. There were very few standing asanas before 1900. By 2012, there were at least 19 widespread styles from Ashtanga Yoga to Viniyoga. These emphasise different aspects including aerobic exercise, precision in the asanas, and spirituality in the Haṭha yoga tradition."
+    },
+    {
+      "class_name": "Yin Yoga",
+      "image": "https://i.ibb.co/JHjG2mz/popular5.jpg",
+      "instructor_name": "Michael Wilson",
+      "available_seats": 16,
+      "price": 17.99,
+      "class_Details": "Modern postural yoga consists largely but not exclusively of the practice of asanas. There were very few standing asanas before 1900. By 2012, there were at least 19 widespread styles from Ashtanga Yoga to Viniyoga. These emphasise different aspects including aerobic exercise, precision in the asanas, and spirituality in the Haṭha yoga tradition."
+    },
+    {
+      "class_name": "Power Yoga",
+      "image": "https://i.ibb.co/RCQ8wBQ/popular1.jpg",
+      "instructor_name": "Jessica Thompson",
+      "available_seats": 14,
+      "price": 21.99,
+      "class_Details": "Modern postural yoga consists largely but not exclusively of the practice of asanas. There were very few standing asanas before 1900. By 2012, there were at least 19 widespread styles from Ashtanga Yoga to Viniyoga. These emphasise different aspects including aerobic exercise, precision in the asanas, and spirituality in the Haṭha yoga tradition."
+    },
+    {
+      "class_name": "Kundalini Yoga",
+      "image": "https://i.ibb.co/xYwBTd2/popular2.jpg",
+      "instructor_name": "Daniel Johnson",
+      "available_seats": 10,
+      "price": 19.99,
+      "class_Details": "Modern postural yoga consists largely but not exclusively of the practice of asanas. There were very few standing asanas before 1900. By 2012, there were at least 19 widespread styles from Ashtanga Yoga to Viniyoga. These emphasise different aspects including aerobic exercise, precision in the asanas, and spirituality in the Haṭha yoga tradition."
+    },
+    {
+      "class_name": "Hot Yoga",
+      "image": "https://i.ibb.co/PgvVTWT/popular6.jpg",
+      "instructor_name": "Sophia Brown",
+      "available_seats": 18,
+      "price": 24.99,
+      "class_Details": "Modern postural yoga consists largely but not exclusively of the practice of asanas. There were very few standing asanas before 1900. By 2012, there were at least 19 widespread styles from Ashtanga Yoga to Viniyoga. These emphasise different aspects including aerobic exercise, precision in the asanas, and spirituality in the Haṭha yoga tradition."
+    },
+    {
+      "class_name": "Iyengar Yoga",
+      "image": "https://i.ibb.co/qmGyvX1/popular3.jpg",
+      "instructor_name": "Matthew Davis",
+      "available_seats": 12,
+      "price": 20.99,
+      "class_Details": "Modern postural yoga consists largely but not exclusively of the practice of asanas. There were very few standing asanas before 1900. By 2012, there were at least 19 widespread styles from Ashtanga Yoga to Viniyoga. These emphasise different aspects including aerobic exercise, precision in the asanas, and spirituality in the Haṭha yoga tradition."
+    }
+  ]

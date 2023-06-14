@@ -1,0 +1,50 @@
+[
+    {
+      "name": "Jane Doe",
+      "image_url": "https://i.ibb.co/SmtGdRT/personnel-5.jpg",
+      "email": "jane.doe@example.com",
+      "classes_taken": 25,
+      "details_info":"A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment. I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth. Thousand unknown plants are noticed by me.",
+      "position" : "New Instructor"
+    },
+    {
+      "name": "John Smith",
+      "image_url": "https://i.ibb.co/cw0yc6x/personnel-6.jpg",
+      "email": "john.smith@example.com",
+      "classes_taken": 35,
+      "details_info":"A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment. I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth. Thousand unknown plants are noticed by me.",
+      "position" : "Jonior Instructor"
+    },
+    {
+      "name": "Sarah Johnson",
+      "image_url": "https://i.ibb.co/mSHWmhj/personnel-2.jpg",
+      "email": "sarah.johnson@example.com",
+      "classes_taken": 40,
+      "details_info":"A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment. I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth. Thousand unknown plants are noticed by me.",
+      "position" : "Senior Instructor"
+    },
+    {
+      "name": "Michael Anderson",
+      "image_url": "https://i.ibb.co/tMdMLzJ/personnel-3.jpg",
+      "email": "michael.anderson@example.com",
+      "classes_taken": 30,
+      "details_info":"A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment. I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth. Thousand unknown plants are noticed by me.",
+      "position" : "Senior Instructor"
+    },
+    {
+      "name": "Michael Sunon",
+      "image_url": "https://i.ibb.co/0tZFwjF/personnel-4.jpg",
+      "email": "michael.anderson@example.com",
+      "classes_taken": 30,
+      "details_info":"A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment. I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth. Thousand unknown plants are noticed by me.",
+      "position" : "Jonior Instructor"
+    },
+    {
+      "name": "Hazrat Anderson",
+      "image_url": "https://i.ibb.co/cCmkzLn/personnel-1.jpg",
+      "email": "hazrat.anderson@example.com",
+      "classes_taken": 30,
+      "details_info":"A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment. I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth. Thousand unknown plants are noticed by me.",
+      "position" : "Senior Instructor"
+    }
+  ]

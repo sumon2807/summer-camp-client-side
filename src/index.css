@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.drawer-side a.active{
+    color: orange;
+}
+.drawer-side a{
+    background-color: transparent;
+}
+.drawer-side a:hover {
+    color: orange;
+}
