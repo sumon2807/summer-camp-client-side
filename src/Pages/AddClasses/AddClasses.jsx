@@ -7,7 +7,7 @@ const AddClasses = () => {
     const { register, handleSubmit, reset, watch, formState: { errors } } = useForm();
 
     const onSubmit = data => {
-
+        console.log(data);
     }
     return (
         <div className='w-full my-8'>
@@ -21,7 +21,7 @@ const AddClasses = () => {
                     <label className="label">
                         <span className="label-text font-bold">Class Image</span>
                     </label>
-                    <input type="photoURL" name='photoURL' {...register("photoURL", { required: true })} placeholder="Photo URL" className="input input-bordered w-1/2" />
+                    <input type="file" name='photoURL' {...register("photoURL", { required: true })} placeholder="Photo URL" className="input input-bordered w-1/2" />
                     <label className="label">
                         <span className="label-text font-bold">Instructor Name</span>
                     </label>
