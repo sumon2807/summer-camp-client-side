@@ -4,7 +4,7 @@ import { useForm } from 'react-hook-form';
 
 const AddClasses = () => {
     const { user } = useAuth();
-    const { register, handleSubmit, reset, watch, formState: { errors } } = useForm();
+    const { register, handleSubmit, formState: { errors } } = useForm();
 
     const onSubmit = data => {
         console.log(data);
@@ -21,7 +21,7 @@ const AddClasses = () => {
                     <label className="label">
                         <span className="label-text font-bold">Class Image</span>
                     </label>
-                    <input type="file" name='photoURL' {...register("photoURL", { required: true })} placeholder="Photo URL" className="input input-bordered w-1/2" />
+                    <input type="photoURL" name='photoURL' {...register("photoURL", { required: true })} placeholder="Photo URL" className="input input-bordered w-1/2" />
                     <label className="label">
                         <span className="label-text font-bold">Instructor Name</span>
                     </label>
@@ -39,9 +39,7 @@ const AddClasses = () => {
                     </label>
                     <input type="text" name='price' {...register("price", { required: true })} placeholder="Price" className="input input-bordered w-1/2 " />
                 </div>
-                <div className="form-control mt-6">
-                    <input className="btn btn-info w-1/2" type="submit" value="Submit" />
-                </div>
+                <input className="btn btn-info w-1/2 mt-4" type="submit" value="Submit" />
             </form>
         </div>
     );
